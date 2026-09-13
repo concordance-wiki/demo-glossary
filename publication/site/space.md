@@ -3,7 +3,7 @@ aliases: [space of a page, tree of the space]
 ---
 # Space
 
-A [source](../../ingestion/sources/source.md) as a reader browses it in the generated [site](site.md): the top bar links to the spaces, the breadcrumb of an [entity](../../inference/model/entity.md) page starts with its space, and the left column of that page shows the tree of the space, its folders with their page counts, the folder of the page open and the page marked. A space has no page of its own; the file tree of the home page lists them all.
+A [source](../../ingestion/sources/source.md) as a reader browses it in the generated [site](site.md): the top bar links to the spaces page, which lists them all with what each holds, its page count and its newest change; every space has a page of its own, `<source>/index.html`, where the rows of the home page lead, with its categories, the top-level folders of its repository, its latest changes and the words its notes cite most, counted in the space only, under a search field confined to it; the breadcrumb of an [entity](../../inference/model/entity.md) page starts with its space, and the left column of that page shows the tree of the space, its folders with their page counts, the folder of the page open and the page marked. The tree appears there only, so that nothing has to be unfolded from the home page.
 
 ## Not to be confused with
 
