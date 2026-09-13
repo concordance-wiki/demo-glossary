@@ -1,5 +1,6 @@
 ---
 aliases: [companion word, accompanying words]
+broader: co-occurrence.md
 ---
 # Accompanying word
 

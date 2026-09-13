@@ -1,5 +1,6 @@
 ---
 aliases: [recognised mention, marked word]
+broader: mention.md
 ---
 # Recognised word
 

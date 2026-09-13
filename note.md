@@ -1,5 +1,6 @@
 ---
 aliases: [typed note, fiche]
+broader: entity.md
 ---
 # Note
 

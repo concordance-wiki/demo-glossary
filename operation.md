@@ -1,5 +1,6 @@
 ---
 aliases: [endpoint, operation note]
+broader: entity.md
 ---
 # Operation
 

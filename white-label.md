@@ -1,5 +1,6 @@
 ---
 aliases: [white-label installation, unbranded site]
+broader: site.md
 ---
 # White label
 

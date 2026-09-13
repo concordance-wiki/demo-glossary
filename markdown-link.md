@@ -1,5 +1,6 @@
 ---
 aliases: [written link, explicit link]
+broader: mention.md
 ---
 # Link
 

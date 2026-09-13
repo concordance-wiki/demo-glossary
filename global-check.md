@@ -1,5 +1,6 @@
 ---
 aliases: [GLOBAL_CHECKS, global scope check]
+broader: check.md
 ---
 # Global check
 

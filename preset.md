@@ -1,5 +1,6 @@
 ---
 aliases: [batteries included]
+broader: plugin.md
 ---
 # Preset
 

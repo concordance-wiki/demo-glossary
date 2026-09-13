@@ -1,5 +1,5 @@
 ---
-aliases: [typed link, relation]
+aliases: [typed link, model link]
 ---
 # Link
 

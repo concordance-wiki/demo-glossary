@@ -1,5 +1,5 @@
 ---
-aliases: [navigation trail, pinned trail]
+aliases: [navigation trail, visited pages]
 ---
 # Trail
 

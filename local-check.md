@@ -1,5 +1,6 @@
 ---
 aliases: [LOCAL_CHECKS, local scope check]
+broader: check.md
 ---
 # Local check
 

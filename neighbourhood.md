@@ -1,5 +1,5 @@
 ---
-aliases: [displayed neighbourhood, neighbourhood map]
+aliases: [displayed neighbourhood, one-hop neighbours]
 ---
 # Neighbourhood
 
