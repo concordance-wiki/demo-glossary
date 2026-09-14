@@ -1,0 +1,7 @@
+---
+aliases: [suggested domain, proposed domain]
+broader: ingestion/typing/domain.md
+---
+# Emergent domain
+
+A [domain](domain.md) the [build](../pipeline/build.md) proposes from the [neighbourhood](../../inference/links/neighbourhood.md) rather than reads from the [configuration](../configuration/configuration.md), for a corpus nobody filed yet. Every term with a note of its own whose distinct neighbours, over the typed [links](../../inference/links/link.md) and the [co-occurrences](../../inference/links/co-occurrence.md), reach `min_neighbours` is a pivot; every [note](../documents/note.md) no frontmatter, folder or glob files that lies within `radius` edges of a pivot is a candidate for a domain named after it, attached to the closest pivot, at equal distance to the one of highest degree. A [stopword](../../inference/recognition/stopword.md) or a term the [lock](../configuration/lock.md) rejects never pivots. The proposal reads as one `I-DOMAIN-SUGGESTED` [finding](../../quality/findings/finding.md) per reached note and as a section of the [build log](../../quality/findings/build-log.md); nothing is assigned unless the configuration says so, because a growing corpus moves its pivots. A proposal is promoted by declaring the domain, or by naming the note under `domains` in the lock, and every entity records the origin of its domain: frontmatter, folder, glob, unclassified, lock or inferred.
