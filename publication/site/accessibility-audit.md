@@ -1,0 +1,6 @@
+---
+aliases: [accessibility checks, a11y audit]
+---
+# Accessibility audit
+
+The set of verifications that hold every page of the [site](site.md) to the accessibility points the default [theme](theme.md) settled, so that the site stays conformant without a manual audit: the contrasts of both palettes measured by numbers with their reference ratios pinned, colour never carrying information alone, targets of 40 px read from the stylesheet for every interactive element, the main content served as text before any [island](island.md) runs, one heading of the first level per page with the table of contents mirroring the sections, the skip link, the focus ring, the tab order and a clickable equivalent to every keyboard shortcut, and the static checker with the contrast measure run by the gallery command over every state of the gallery, the type pages included. Six test files, one per criterion, render the gallery and read the stylesheet; the gallery command fails on any finding, so a theme author runs it after every change. A [textual equivalent](textual-equivalent.md) accompanies every graphical view, and a [white label](white-label.md) installation inherits the guarantees as long as its theme keeps what they rest on.
